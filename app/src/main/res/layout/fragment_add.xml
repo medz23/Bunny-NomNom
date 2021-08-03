@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/fragmentAdd"
+    tools:context=".AddFragment"
+  >
+
+    <!-- TODO: Update blank fragment layout -->
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_gravity="center">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Choose an option:"
+            android:id="@+id/test"
+            android:textSize="30dp"/>
+
+        <br.com.simplepass.loadingbutton.customViews.CircularProgressButton
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="100dp"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/createM"
+            android:text="Create New Meal"
+            android:backgroundTint="@color/colorAccent"
+            android:textColor="@color/white"
+            />
+
+        <br.com.simplepass.loadingbutton.customViews.CircularProgressButton
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/createM"
+            android:id="@+id/randomM"
+            android:text="Random Recipe"
+            android:backgroundTint="@color/colorAccent"
+            android:textColor="@color/white"
+            />
+
+
+
+
+    </RelativeLayout>
+
+    </LinearLayout>
+
+    </RelativeLayout>
+
+
+
+</FrameLayout>

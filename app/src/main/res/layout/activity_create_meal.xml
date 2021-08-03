@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CreateMeal"
+    android:layout_gravity="center"
+    android:id="@+id/recyRel"
+    >
+    <include layout="@layout/toolbar_back"/>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_marginTop="100dp"
+        android:layout_height="match_parent"
+        >
+
+
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:id="@id/liniear2"
+
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:text="Add some food in the meniu!"
+            />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:orientation="horizontal"
+            android:layout_marginTop="20dp"
+            >
+
+
+            <Spinner
+                android:layout_width="220dp"
+                android:layout_height="match_parent"
+                android:id="@+id/spinnerMancare"
+                />
+
+            <Spinner
+                android:layout_marginLeft="10dp"
+                android:layout_width="150dp"
+                android:layout_height="match_parent"
+                android:id="@+id/spinnerCantitati"/>
+
+
+        </LinearLayout>
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/ic_baseline_add_24"
+            android:layout_gravity="center"
+            android:id="@+id/flotingAddBt"/>
+
+
+    </LinearLayout>
+
+
+
+
+    </LinearLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/recyclerFoodie"
+        android:scrollbars="vertical"
+        android:layout_marginTop="270dp"
+        android:layout_below="@+id/liniear2"
+        android:layout_marginHorizontal="10dp"
+        tools:listitem="@layout/meal_list_item"
+        />
+
+
+</RelativeLayout>
