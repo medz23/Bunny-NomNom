@@ -7,3 +7,5 @@ The application is being improved, at the moment having connected to the databas
 It was used for its implementation of Room and Java.
 
 ![login part](https://github.com/medz23/Bunny-NomNom/blob/main/Readme-imgs/1.png)
+![login part](https://github.com/medz23/Bunny-NomNom/blob/main/Readme-imgs/2.png)
+![login part](https://github.com/medz23/Bunny-NomNom/blob/main/Readme-imgs/3.png)
