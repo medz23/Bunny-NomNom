@@ -6,4 +6,4 @@ The principle of using the application is simple: you create an account to keep 
 The application is being improved, at the moment having connected to the database only the login part.
 It was used for its implementation of Room and Java.
 
-	![/Readme-imgs/1.png]
+	![login part](https://github.com/medz23/Bunny-NomNom/blob/main/Readme-imgs/1.png)
